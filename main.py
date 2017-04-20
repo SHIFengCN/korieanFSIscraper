@@ -57,7 +57,7 @@ def translate(queryString,fromL,toL='zh'):
     #print('translating:')
     #print(fromL)
     appid = '20170224000039780'
-    secretKey = 'OAtEFmWXkAePVKz3h2uA'
+    secretKey = ''
     httpClient = None
     myurl = '/api/trans/vip/translate'
     q=queryString.replace('\r','').replace('\n',' ')
